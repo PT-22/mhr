@@ -11,6 +11,11 @@ hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 0 1em;
 }
 
+a:link, a:visited {color: #0069a8;}
+a:hover, a:active {color: #c70036;}
+
+figure {margin: 1em 0;} figcaption {font-size: small; text-align: center;}
+
 .hang {margin: 1em 0;} .hang p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
 
 /*
