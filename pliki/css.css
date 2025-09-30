@@ -11,6 +11,8 @@ hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 0 1em;
 }
 
+.hang {margin: 1em 0;} .hang p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
+
 /*
 #c70036	#ff2056 rose
 #bb4d00 #fe9a00 amber
