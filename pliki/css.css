@@ -1,12 +1,12 @@
 
-@font-face {font-family: char; src: url(Charis400.woff2); font-style: normal; font-weight: normal;}
-@font-face {font-family: char; src: url(Charis401.woff2); font-style: italic; font-weight: normal;}
-@font-face {font-family: char; src: url(Charis700.woff2); font-style: normal; font-weight: bold;}
-@font-face {font-family: char; src: url(Charis701.woff2); font-style: italic; font-weight: bold;}
+@font-face {font-family: gent; src: url(Gentium400.woff2); font-style: normal; font-weight: normal;}
+@font-face {font-family: gent; src: url(Gentium401.woff2); font-style: italic; font-weight: normal;}
+@font-face {font-family: gent; src: url(Gentium800.woff2); font-style: normal; font-weight: bold;}
+@font-face {font-family: gent; src: url(Gentium801.woff2); font-style: italic; font-weight: bold;}
 
 body {
 background: #ffffff; color: #314158;
-font-family: char, serif;
+font-family: gent, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 0 1em;
 }
