@@ -6,7 +6,7 @@
 
 body {
 background: #ffffff; color: #314158;
-font-family: gent, sans-serif;
+font: 1em/1.5 gent, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 0 1em;
 }
