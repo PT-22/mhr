@@ -5,7 +5,7 @@
 @font-face {font-family: gent; src: url(Gentium801.woff2); font-style: italic; font-weight: bold;}
 
 body {
-background: #ffffff; color: #314158;
+background: #ffffff ; color: #314158;
 font: 1em/1.5 gent, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 0 1em;
