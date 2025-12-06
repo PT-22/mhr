@@ -1,0 +1,28 @@
+
+@font-face {font-family: gent; src: url(gentium400.woff2); font-style: normal; font-weight: normal;}
+@font-face {font-family: gent; src: url(gentium401.woff2); font-style: italic; font-weight: normal;}
+@font-face {font-family: gent; src: url(gentium800.woff2); font-style: normal; font-weight: bold;}
+@font-face {font-family: gent; src: url(gentium801.woff2); font-style: italic; font-weight: bold;}
+
+body {
+background: #ffffff; color: #314158; /*slate700*/
+font: 1em/1.5 gent, sans-serif;
+hyphens: auto;
+margin: 0 auto; max-width: 40em; padding: 0 1em;
+}
+
+a:link, a:visited {color: #0069a8;} /*sky700*/
+a:hover, a:active {color: #c70036;} /*rose700*/
+
+figure {margin: 1em 0;} figcaption {font-size: small; text-align: center;}
+
+table {border-collapse: collapse; margin: 1em 0; table-layout: fixed; width: 100%;}
+th, td {border: thin solid #cad5e2; padding: 0.2em 0.5em; vertical-align: top;} /*slate300*/
+
+.breadcrumbs, .flatlist {list-style: none; padding: 0;}
+.breadcrumbs li, .flatlist li {display: inline;}
+.breadcrumbs li+li:before {content: " › ";}
+.flatlist li+li:before {content: " • ";}
+
+.col2 {columns: 2;}
+.hang {margin: 1em 0;} .hang p {margin: 0; padding: 0 0 0 1em; text-indent: -1em;}
