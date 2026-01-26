@@ -1,4 +1,9 @@
 
+@font-face {font-family: bril; src: url(Brill400.ttf); font-style: normal; font-weight: normal;}
+@font-face {font-family: bril; src: url(Brill401.ttf); font-style: italic; font-weight: normal;}
+@font-face {font-family: bril; src: url(Brill700.ttf); font-style: normal; font-weight: bold;}
+@font-face {font-family: bril; src: url(Brill701.ttf); font-style: italic; font-weight: bold;}
+
 @font-face {font-family: gent; src: url(gentium400.woff2); font-style: normal; font-weight: normal;}
 @font-face {font-family: gent; src: url(gentium401.woff2); font-style: italic; font-weight: normal;}
 @font-face {font-family: gent; src: url(gentium800.woff2); font-style: normal; font-weight: bold;}
@@ -6,7 +11,7 @@
 
 body {
 background: #ffffff; color: #314158; /*slate700*/
-font: 1em/1.5 gent, sans-serif;
+font: 1em/1.5 bril, sans-serif;
 hyphens: auto;
 margin: 0 auto; max-width: 40em; padding: 0 1em;
 }
